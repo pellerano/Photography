@@ -10,7 +10,123 @@
     />
     <meta name="robots" content="index,follow" />
     <title>Elena Joy | Photographer</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
-  <body></body>
+  <body>
+    <header class="main-head">
+      <nav>
+        <h1 id="logo">Elena Joy</h1>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger">
+          <span class="line1"></span>
+          <span class="line2"></span>
+          <span class="line3"></span>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-introduction flex">
+          <h2>
+            Elena Joy <br />
+            Photography
+          </h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Repudiandae officia facere molestias quo. Animi vitae eligendi
+            obcaecati, totam praesentium sint!
+          </p>
+          <a href="#gallery">Gallery</a>
+        </div>
+        <div class="hero-images">
+          <img
+            src="./images/elena-joy.png"
+            alt="pic of elena joy"
+            class="hero-elena"
+          />
+          <img src="./images/plant1.png" alt="" class="plant-1 plant" />
+          <img src="./images/plant2.png" alt="" class="plant-2 plant" />
+        </div>
+      </section>
+      <section class="about" id="about">
+        <div class="about-image">
+          <h5>MINIMAL</h5>
+          <img src="./images/about-image.png" alt="portrait-picture" />
+        </div>
+        <div class="about-text flex">
+          <h2>Elena Joy</h2>
+          <div class="about-life">
+            <h3>My Life</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Praesentium pariatur nam quidem recusandae sapiente reprehenderit
+              suscipit esse impedit iste veniam.
+            </p>
+          </div>
+          <div class="about-contact">
+            <h3>Get in touch</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Praesentium pariatur nam quidem recusandae sapiente reprehenderit
+              suscipit esse impedit iste veniam.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="gallery" id="gallery">
+        <header class="gallery-head">
+          <h2>Quality Photography</h2>
+          <p>My work pictures that I took</p>
+        </header>
+        <img class="gallery1" src="./images/gallery-1.jpg" alt="man in suit" />
+        <img class="gallery2" src="./images/gallery-2.jpg" alt="lady in coat" />
+        <img
+          class="gallery3"
+          src="./images/gallery-3.jpg"
+          alt="lady in t-shirt"
+        />
+        <img
+          class="gallery4"
+          src="./images/gallery-4.jpg"
+          alt="lady in jacket"
+        />
+      </section>
+      <section class="contact" id="contact">
+        <div class="form-wrapper flex">
+          <h2>Get in <br /><span>touch.</span></h2>
+          <form>
+            <label for="email">Your Email:</label>
+            <input type="email" id="email required" />
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+        <img src="./images/contact-image.jpg" alt="elena-joy" />
+      </section>
+    </main>
+    <footer>
+      <h4>Elena Joy &copy; 2020</h4>
+      <ul>
+        <li>
+          <a href="#"></a
+          ><img
+            src="./images/youtube-symbol 1.svg"
+            alt="youtube-social-media"
+          />
+        </li>
+        <li>
+          <a href="#"></a
+          ><img src="./images/twitter 1.svg" alt="twitter-social-media" />
+        </li>
+        <li>
+          <a href="#"></a
+          ><img src="./images/instagram 1.svg" alt="instagram-social-media" />
+        </li>
+      </ul>
+    </footer>
+    <script src="./app.js"></script>
+  </body>
 </html>
